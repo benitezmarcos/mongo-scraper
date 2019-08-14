@@ -1,15 +1,18 @@
-# NY-Times-Mongo-Scraper
+#NYT-Scraper
 
-Heroku Deployement Page:
+#Overview
+Mongo Scraper is a web application that utilizes Mongoose and Cheerio to scrape articles from InVision Blog, and allows users to save articles and to make notes.
 
-https://mongo-scraper-nytimes.herokuapp.com/
+#Demo
+https://benitez-nyt-scraper.herokuapp.com/
 
-### Overview
+#Technologies used
 
-This is web app that lets users "scrape" articles from the New York Times, save the ones they link, and allows them to leave comments on the articles.
-
-This app uses MongoDB and is deployed on Heroku. 
-
-
-
-Conrad Harrison (C) 2017.
+Node.js
+MongoDB/ Mongoose
+cheerio NPM Package - https://www.npmjs.com/package/cheerio
+request NPM Package - https://www.npmjs.com/package/request
+express NPM Package - https://www.npmjs.com/package/express
+body-parser NPM Package - https://www.npmjs.com/package/body-parser
+morgan NPM Package - https://www.npmjs.com/package/morgan
+moment NPM Package - https://www.npmjs.com/package/moment
