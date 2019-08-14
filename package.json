@@ -1,28 +1,19 @@
 {
-  "name": "mongo-scraper",
+  "name": "NY-Times-Mongo-Scraper",
   "version": "1.0.0",
-  "description": "#Overview Mongo Scraper is a web application that utilizes Mongoose and Cheerio to scrape articles from InVision Blog, and allows users to save articles and to make notes.",
+  "description": "",
   "main": "server.js",
-  "dependencies": {
-    "body-parser": "^1.19.0",
-    "cheerio": "^1.0.0-rc.3",
-    "express": "^4.17.1",
-    "express-handlebars": "^3.1.0",
-    "mongoose": "^5.6.9"
-  },
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/benitezmarcos/mongo-scraper.git"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/benitezmarcos/mongo-scraper/issues"
-  },
-  "homepage": "https://github.com/benitezmarcos/mongo-scraper#readme"
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "cheerio": "^0.20.0",
+    "express": "^4.13.4",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^4.4.6",
+    "request": "^2.69.0"
+  }
 }
